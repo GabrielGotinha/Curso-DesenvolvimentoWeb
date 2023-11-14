@@ -25,20 +25,25 @@ legend{
 }
 div#input{
     position: absolute;
-    margin: 10px;
-    padding: 50px;
-    
+    margin: 20px;
+    padding: 40px;
+    background-color: rgba(1, 158, 248, 0.384);
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 input{
     outline: none;
     border: none;
     border-radius: 10px;
-    padding: 5px;
+    height: 20px;
+    
     box-shadow: 1px 1px rgb(102, 102, 102);
 }
 input:hover{
-    border: 2px solid rgb(3, 194, 3);
+    box-shadow: 1px 2px 2px rgb(54, 189, 54);
 }
+
 button{
     border: none;
     background-color: rgb(72, 190, 72);
@@ -50,6 +55,9 @@ button{
     right: 90px;
     border-radius: 10px;
     
+}
+button:hover{
+    background-color: rgb(62, 163, 62);
 }
 label{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
