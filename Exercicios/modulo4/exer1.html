@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="cadastro.php" method="get">
+        <p><label for="iusu">Usuario: </label></p>
+        <input type="text" name="usu" id="iusu" required minlength="8" maxlength="15">
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+        
+    </form>
+</body>
+</html>
