@@ -1,0 +1,57 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div#container{
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2%;
+    box-shadow: 2px 2px rgb(105, 105, 105);
+}
+legend{
+    text-align: center;
+    padding-top: 10px;
+}
+div#input{
+    position: absolute;
+    margin: 10px;
+    padding: 50px;
+    
+}
+input{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px rgb(102, 102, 102);
+}
+input:hover{
+    border: 2px solid rgb(3, 194, 3);
+}
+button{
+    border: none;
+    background-color: rgb(72, 190, 72);
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+    right: 90px;
+    border-radius: 10px;
+    
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
