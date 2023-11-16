@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="cadastro.php">
+        <label for="iest"> Estado</label>
+        <select name="estado" id="iest">
+            <option value="" selected>___ESCOLHA____</option>
+            <optgroup label="Regiao ">
+                <option value="MG">Minas Gerais</option>
+                <option value="GO">Goias</option>
+            </optgroup>
+        </select>
+        <p>
+          <label for="msg">Mensagem</label>
+          <textarea name="" id="imsg" cols="30" rows="10"></textarea> 
+        </p>
+        <fieldset>
+        <label for="in1">Numero 1</label>
+        <input type="number" id="in1" required oninput="soma.innerHTML = Number(in1.value) + Number(in2.value)">
+        <label for="in2">Numero 2</label>
+        <input type="number" id="in2" required oninput="soma.innerHTML = Number(in1.value) + Number(in2.value)">
+        <label for="soma">Soma</label>
+        <output id="soma">0</output>
+        </fieldset>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>
