@@ -1,0 +1,25 @@
+Html
+
+formularios
+atributo "required" faz com que seja obrigatorio responder
+minlenght e o comprimento minino de letras
+size e o tammanho da do input quantas letras vai mostrar
+radio e para escolher so um diferente do check box
+quando usar o input file use o metodo post
+select cria um seletor com option eu escolho qual seletores serao
+com optgroup eu crio um grupo de option usando label como atributo eu coloco o nome desse grupo
+
+com output eu consigo colocar um valor q n pode ser alterado pelo usuario
+com oninput="soma.innerHTML = Number(in1.value) + Number(in2.value)" no atributo do input eu consigo colocar pra somar
+consigo fazer o mesmo com um range usando oniput = range.htmlinerhtml = number(range.value)
+
+Media queries
+para usar media queries basta usar media no link do css o atributo media e escolher pra q tipo vai ser o estilo
+
+ para indicar uma media features usamos and junto com screnn, entre () usamos as media features
+ex (orientation: portrait) que a orientaaco estaondo em retrato
+
+para usarmos sem precisar criar outro arquivo de css usamos @media e o resto ne um msm arquivo
+
+-=-=-=-Criar sites no estilo mobile first
+
