@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*todos as media queries*/
+
+/* Typical Device Breakpoints
+pequenas telas: 320px
+Celular: 320 ate 768px
+tablet: 768px ate 1024
+pc: 1025 ate 1200
+telas grandes: 1201 a mais
+*/
+
+@media print{
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 1024){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+        img#phone { display: none;}
+        img#tablet { display: block;}
+        img#print { display: none;}
+        img#tv { display: none;}
+        img#pc { display: none;}
+}
+@media screen and(min-width: 1024px) and(max-width: 1200) {
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone { display: none;}
+    img#tablet { display: none;}
+    img#print { display: none;}
+    img#tv { display: none;}
+    img#pc { display: block;}
+}
+@media screen and(min-width: 1200px) {
+    
+}
