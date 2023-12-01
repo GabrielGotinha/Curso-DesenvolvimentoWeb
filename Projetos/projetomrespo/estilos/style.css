@@ -19,22 +19,35 @@ header > h1{
     text-align: center;
 }
 
+menu > ul{
+    list-style-type: none;
+}
+
 i#burguer{
     background-color: rgb(34, 34, 34);
     display: block;
     color: white;
     text-align: center;
-    padding: 10px; ul{
-    list-style-type: none;
+    padding: 10px;
+    cursor: pointer;
+}
+menu{
+    display: none;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
 }
 
 menu > ul > li > a{
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(58, 58, 58);
     color: white;
-    text-align: center;er-top: 2px solid rgb(167, 167, 167);
+    text-align: center;
+    border-top: 2px solid rgb(172, 172, 172);
 }
 
 menu > ul > li > a:hover {
